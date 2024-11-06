@@ -1,0 +1,70 @@
+
+package pkg05.laboratory.exercise;
+
+import java.util.Scanner;
+
+
+public class LaboratoryExercise {
+
+    public static void main(String[] args) {
+        int num;
+        
+        
+        Scanner scanner = new Scanner (System.in);
+        
+     System.out.print("Enter product name: ");
+     String name = scanner.nextLine();
+     
+     System.out.print("Product code: ");
+     int code = scanner.nextInt();
+     scanner.nextLine();
+     
+     
+     System.out.print("Quanity in stock: ");
+     int stock = scanner.nextInt();
+     scanner.nextLine();
+     
+     System.out.print("Enter product price per unit: ");
+     int price = scanner.nextInt ();
+     scanner.nextLine();
+     
+     System.out.print("Enter the supplier name: ");
+     String SN= scanner.nextLine ();
+     
+     System.out.print("Enter the product expiration date: ");
+     int expiration = scanner.nextInt ();
+     scanner.nextLine();
+     
+     System.out.print("Enter the number of products sold today: ");
+     int sold = scanner.nextInt ();
+     scanner.nextLine();
+     
+     System.out.print("Enter the discount percentage: ");
+     int discount = scanner.nextInt ();
+     scanner.nextLine();
+     
+     System.out.print("Enter the reorder threshold quantity: ");
+     int quantity = scanner.nextInt();
+     scanner.nextLine();
+     
+     System.out.print("Enter the store location: ");
+     String SL = scanner.nextLine();
+     
+     System.out.println();
+     
+     System.out.println("Product name is: " + name);
+     System.out.println ("Product code: " + code);
+     System.out.println("Quantity of Stock: " + stock);
+     System.out.println("Price per Unit: " + price);
+     System.out.println("Supplier Name: " + SN);
+     System.out.println("Expiration Date: " + expiration);
+     System.out.println("Products Sold Today: " + sold);
+     System.out.println("Discount Percentage: " + discount);
+     System.out.println("Reorder Threshold Quantity: " + quantity);
+     System.out.println("Store Location: " + SL);
+    
+    
+    
+    }
+    
+}
